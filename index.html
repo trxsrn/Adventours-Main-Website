@@ -1,8 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Adventours</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
+        <nav>
+            <!-- Logo on the left -->
+            <div>
+                <img src="img/2.png" alt="Logo">
+            </div>
+            <!-- Navigation links on the right -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div>
+                <p class="appname">ADVENTOURS</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ex eius consectetur dolorem aut voluptas repudiandae voluptate, accusamus nesciunt illo adipisci delectus exercitationem quam qui eos. Consequatur, magni minima. Quam!</p>
+                <button>INSTALL NOW</button>
+            </div>
+            <div>
+                <img src= "">
+            </div>
+            
+        </div>
     </body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDjVbE7gj-dlFxeXVCvgBPK0WdiQBK4ZqQ",
+          authDomain: "adventours-402501.firebaseapp.com",
+          databaseURL: "https://adventours-402501-default-rtdb.firebaseio.com",
+          projectId: "adventours-402501",
+          storageBucket: "adventours-402501.appspot.com",
+          messagingSenderId: "419913978490",
+          appId: "1:419913978490:web:6fc14fb10c50ac848521c3",
+          measurementId: "G-BX616K6J6J"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </html>
