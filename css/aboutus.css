@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    padding: 20px;
+}
+
+.logo
+{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.intro
+{
+    text-align: center;
+}
+
+.headers
+{
+    font-size: 20px;
+    color: #0A142D;
+    border-bottom: 2px solid #0A142D;
+    width: 15%;
+    margin: 20px 0 20px 0;
+    font-weight: 400;
+}
+
+.story
+{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.text
+{
+    padding: 30px;
+}
+
+.samplepics
+{
+    height: 250px;
+    width: auto;
+    float: right;
+}
+
