@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adventours</title>
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/feature.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <nav>
+            <!-- Logo on the left -->
+            <div>
+                <img src="img/2.png" alt="Logo">
+            </div>
+            <!-- Navigation links on the right -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feature.html" class="active">Features</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <center>
+            <video width="80%" height="50%" autoplay muted loop>
+                <source src="img/Adventours Logo Animation (Landscape).mp4" type="video/mp4">
+                <source src="img/Adventours Logo Animation (Landscape).mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+            </center>   
+            <div class="intro1">
+                <p>AdvenTours is a mobile application that covers promoting Pangasinan as a tourist destination. It guides users or the other possible tourist to their destinations, ensuring hassle-free trips. The app serves as a comprehensive guide, spotlighting diverse tourist attractions across the province of Pangasinan. Moreover, it provides detailed information about tours and nearby hotels, catering to travelers planning an extended stay in the region and letting the travelers book according to their preferences. 
+                </p>
+
+                <img src="img/iPhone 11 Render.png" class="reveal">
+            </div>
+
+            <div class="intro2 reveal">
+                <h3>OBJECTIVES</h3>
+                <p>Adventours is developed to give visitors a practical and easily available tool that will aid in navigating and enhancing their travels to Pangasinan even offline. The guide aims to enhance travelers' journeys, empower them to make informed decisions by providing in-depth insights into immersive city tours, suitable lodging options, and the top tourist attractions.
+                    In addition to this it aims to improve visitors' travel experiences by offering
+                    complete and carefully organized information about immersive tours, appropriate places to stay, and the top tourist attractions inside Pangasinan. It helps tourists organize their vacations efficiently, and make the most of their time while visitingthe province.
+                </p>
+
+                <div class="categories">
+
+                <div class="category">
+                    <center>
+                    <i class="fa-solid fa-bed" style="font-size: 50px;"></i>
+                    <p>Hotel Accomodations</p>
+                    </center>
+                </div>
+                <div class="category">
+                    <center>
+                    <i class="fa-solid fa-utensils" style="font-size: 50px;"></i>
+                    <p>Restaurants Nearby</p>
+                    </center>
+                </div>
+               <div class="category">
+                    <center>
+                    <i class="fa-solid fa-person-hiking" style="font-size: 50px;"></i>
+                    <p>Available Tours</p>
+                    </center>
+               </div>
+                <div class="category">
+                    <center>
+                    <i class="fa-solid fa-calendar-days" style="font-size: 50px;"></i>
+                    <p>Events</p>
+                    </center>
+                </div>
+                </div>
+            </div>
+
+            <div class="features reveal">
+                <h3>Features</h3>
+                <ol>
+                    <li> A comprehensive directory of Pangasinan tourist attractions, tours, and hotels, including photos and prices.</li>
+                </ol>
+            </div>
+        </div>
+        <script>
+            function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("appear");
+    } else {
+      reveals[i].classList.remove("appear");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+        </script>
+    </body>
+</html>

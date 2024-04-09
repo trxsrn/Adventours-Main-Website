@@ -44,3 +44,8 @@ nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
 }
+
+.active
+{
+    border-bottom: 3px solid #ffc001;
+}
