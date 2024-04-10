@@ -1,4 +1,3 @@
-<?php include 'navbar.php' ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,45 +25,139 @@
             </ul>
         </nav>
 
-        <div class="content">
-
-            <p class="intro">Welcome to AdvenTours, your buddy to adventures. We are your map in exploring the beauty of Pangasinan. Here's a glimpse of who we are:</p>
-
-
-            <div class="story">
-                <div class="text">
-                    <p class="headers">Our Story</p>
-                    <p class ="definition">AdvenTours started as our Capstone project founded in 2023 with a simple goal: to empower travelers like you to explore Pangasinan with ease. Most of the members of our team love to explore different places and most of the members wish to travel to Pangasinan. So we decided to create a travel application that helps tourists who want to explore Pangasinan like us.</p>
+        <div class="slider">
+            <!-- fade css -->
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Brain Storming</h1>
+                    <p>Discussion about the objective of adventours.</p>
                 </div>
-                <div class="image">
-                    <img src="img/gmeet1.png" class="samplepics">
+                <img src="img/1.png" class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Regular Meeting</h1>
+                    <p>Generate and share ideas for features, design, and limitation.</p>
+                </div>
+                <img src="img/2.jpg" class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>UI/ UX and Mobile App Development</h1>
+                    <p>Bringing ideas into reality</p>
+                </div>
+                <img src="img/3.jpg"  class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Casptone 1 Defense</h1>
+                    <p>Defending adventours to the panelists.</p>
+                </div>
+                <img src="img/4.jpg"  class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Regular Meeting</h1>
+                    <p>Discussion on what to add and remove.</p>
+                </div>
+                <img src="img/5.jpg"  class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Development, Testing and Documentation</h1>
+                    <p>Continuation of development, testing the mobile app, continuation of documentation. </p>
+                </div>
+                <img src="img/6.jpg"  class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Preparation for Capstone 2 Defense</h1>
+                    <p>Preparation for defense.</p>
+                </div>
+                <img src="img/7.jpg"  class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>Capstone 2 Defense</h1>
+                    <p>Defended adventours.</p>
+                </div>
+                <img src="img/8.jpg"  class="slide-img" style="width: 100%; height: 100%;">
+            </div>
+            <!-- /fade css -->
+            
+            <!-- onclick js -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+            <!-- /onclick js -->
+        </div>
+
+        <div class="testimonies">
+
+            <p class="intro" style="padding-top: 50px;">Welcome to AdvenTours, your buddy to adventures. We are your map in exploring the beauty of Pangasinan. Here's a glimpse of who we are:</p>
+
+            <div class="testimony">
+                <div class="favorite-img">
+                    <img src="img/3.jpg" height="auto" width="auto">
+                </div>
+                <div class="box">
+                  <i class="fas fa-quote-left quote"></i>
+                  <p>As the full stack developer of this mobile application this is a huge project for me and challenging. Since I am the main developer of it and the other members also have their own respective task such as the 3 admins (Super Admin, Hotel admin and the Restaurant Admin) and the documentation, it is very hard for me. But alongside with this, I just want to commend my members who's very understandable and hard working. They worked hard on everything, push beyond their limits, and provided their entire time and effort to make this mobile application turn into reality. Without their ideas, efforts and sleepless nights this application will not be functional and commendable. <br><br>So, I would like to say that this mobile application is worth to try. </p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">Trixie L. Soriano</div>
+                      <div class="job"> Full Stack Mobile App & Web Developer</div>
+                      <div class="stars">
+                        <a href="https://web.facebook.com/trxsrn" target="_blank"><i class="fa-brands fa-facebook" style="font-size: 15px; padding: 10px; "></i></a>
+                        <a href="https://www.instagram.com/trixsrn" target="_blank"><i class="fa-brands fa-instagram" style="font-size: 15px; padding: 10px;"></i></a>
+                        <i class="fa-regular fa-envelope" style="font-size: 15px; padding: 10px;"></i>
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="img/trixiedp.jpg" alt="">
+                    </div>
+                  </div>
                 </div>
             </div>
-            <div class="story">
-            <div class="image">
-                    <img src="img/gmeet1.png" class="samplepics">
+
+            <div class="testimony">
+                <div class="box">
+                  <i class="fas fa-quote-left quote"></i>
+                  <p>I find it hard and pressuring when I was still leaning the functions of each codes and I had lots of breakowns, sleepless nights and anxiety doing my part but it was also a bit fun and amazing when I see my work has progress from what am I doing. I've got a chance to learn and understand the backend of the website and even if it was difficult for me, I still got to learn and gain additional knowledge from my experience.</p>
+                  <div class="content">
+                    <div class="info">
+                      <div class="name">Hanna Keene Vibiesca</div>
+                      <div class="job">Web-based Admin Developer</div>
+                      <div class="stars">
+                        <a href="https://web.facebook.com/HKvibiesca" target="_blank"><i class="fa-brands fa-facebook" style="font-size: 15px; padding: 10px; color: white;"></i></a>
+                        <a href="https://www.instagram.com/justme.keene" target="_blank"><i class="fa-brands fa-instagram" style="font-size: 15px; padding: 10px; color: white;"></i></a>
+                        <i class="fa-regular fa-envelope" style="font-size: 15px; padding: 10px;"></i>
+                      </div>
+                    </div>
+                    <div class="image">
+                      <img src="img/kendp (1).jpg" alt="">
+                    </div>
+                  </div>
                 </div>
-                <div class="text">
-                    <p class="headers">Our Story</p>
-                    <p class ="definition">AdvenTours started as our Capstone project founded in 2023 with a simple goal: to empower travelers like you to explore Pangasinan with ease. Most of the members of our team love to explore different places and most of the members wish to travel to Pangasinan. So we decided to create a travel application that helps tourists who want to explore Pangasinan like us.</p>
-                </div>
-            </div>
-            <div class="story">
-                <div class="text">
-                    <p class="headers">Our Story</p>
-                    <p class ="definition">AdvenTours started as our Capstone project founded in 2023 with a simple goal: to empower travelers like you to explore Pangasinan with ease. Most of the members of our team love to explore different places and most of the members wish to travel to Pangasinan. So we decided to create a travel application that helps tourists who want to explore Pangasinan like us.</p>
-                </div>
-                <div class="image">
-                    <img src="img/defense1.jpg" class="samplepics">
-                </div>
-            </div>
-            <div class="story">
-            <div class="image">
-                    <img src="img/gmeet1.png" class="samplepics">
-                </div>
-                <div class="text">
-                    <p class="headers">Our Story</p>
-                    <p class ="definition">AdvenTours started as our Capstone project founded in 2023 with a simple goal: to empower travelers like you to explore Pangasinan with ease. Most of the members of our team love to explore different places and most of the members wish to travel to Pangasinan. So we decided to create a travel application that helps tourists who want to explore Pangasinan like us.</p>
+                <div class="favorite-img">
+                    <img src="img/kensays.jpg" height="auto" width="auto">
                 </div>
             </div>
 
@@ -106,9 +199,7 @@
                             <h5>Trixie L. Soriano </h5>
                             <h6>UI/UX Designer, Documentation, Full Stack Mobile Application Developer</h6>
                             <div class="connect">
-                                <a href="https://web.facebook.com/trxsrn" target="_blank"><i class="fa-brands fa-facebook" style="font-size: 15px; padding: 10px; color: white;"></i></a>
-                                <a href="https://www.instagram.com/trixsrn" target="_blank"><i class="fa-brands fa-instagram" style="font-size: 15px; padding: 10px; color: white;"></i></a>
-                                <i class="fa-regular fa-envelope" style="font-size: 15px; padding: 10px;"></i>
+                                
                             </div>
                         </div>
                         <div class="card">
@@ -116,9 +207,7 @@
                             <h5>Hanah Keene Vibiesca</h5>
                             <h6>Web Developer</h6>
                             <div class="connect">
-                                <a href="https://web.facebook.com/HKvibiesca" target="_blank"><i class="fa-brands fa-facebook" style="font-size: 15px; padding: 10px; color: white;"></i></a>
-                                <a href="https://www.instagram.com/justme.keene" target="_blank"><i class="fa-brands fa-instagram" style="font-size: 15px; padding: 10px; color: white;"></i></a>
-                                <i class="fa-regular fa-envelope" style="font-size: 15px; padding: 10px;"></i>
+                               
                             </div>
                         </div>
                     </div>    
@@ -126,5 +215,51 @@
             </div>
 
         </div>
+
+        <script>
+            const myslide = document.querySelectorAll('.myslide'),
+	  dot = document.querySelectorAll('.dot');
+let counter = 1;
+slidefun(counter);
+
+let timer = setInterval(autoSlide, 8000);
+function autoSlide() {
+	counter += 1;
+	slidefun(counter);
+}
+function plusSlides(n) {
+	counter += n;
+	slidefun(counter);
+	resetTimer();
+}
+function currentSlide(n) {
+	counter = n;
+	slidefun(counter);
+	resetTimer();
+}
+function resetTimer() {
+	clearInterval(timer);
+	timer = setInterval(autoSlide, 8000);
+}
+
+function slidefun(n) {
+	
+	let i;
+	for(i = 0;i<myslide.length;i++){
+		myslide[i].style.display = "none";
+	}
+	for(i = 0;i<dot.length;i++) {
+		dot[i].className = dot[i].className.replace(' active', '');
+	}
+	if(n > myslide.length){
+	   counter = 1;
+	   }
+	if(n < 1){
+	   counter = myslide.length;
+	   }
+	myslide[counter - 1].style.display = "block";
+	dot[counter - 1].className += " active";
+}
+        </script>
     </body>
 </html>
