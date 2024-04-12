@@ -19,7 +19,7 @@
     top: 75%;
 }
 
-button{
+.downloadbtn{
 
     padding: 20px;
     background-color: #FC9368;
@@ -27,4 +27,7 @@ button{
     color: white;
     font-weight: bold;
     margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    width: fit-content;
 }
