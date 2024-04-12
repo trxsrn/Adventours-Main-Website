@@ -31,3 +31,9 @@
     text-decoration: none;
     width: fit-content;
 }
+
+@media (max-width: 800px) {
+    .content {
+      flex-wrap: wrap-reverse;
+    }
+  }

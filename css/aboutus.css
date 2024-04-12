@@ -49,10 +49,19 @@
 .testimony{
     padding: 100px;
     display: flex;
+    flex-direction: row;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
     padding: 40px;
     border-radius: 20px;
     margin: 20px;
+}
+
+.favorite-img{
+  flex: 50%;
+}
+
+.box{
+  flex: 50%;
 }
 
 .box, .favorite-img{
@@ -299,6 +308,12 @@
 	.sign a{
 		font-size: 12px;
 	}
+}
+
+@media (max-width: 800px) {
+  .testimony {
+    flex-direction: column;
+  }
 }
 /* /6 */
 
